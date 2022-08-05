@@ -1,0 +1,155 @@
+.container
+{
+   
+    margin-left: 5em;
+    margin-right: 5em;
+ 
+    margin-top: 1em;
+    margin-bottom: 5em;
+  
+}
+
+.navbar-container
+{
+    width: 100%;
+ 
+    height: 60px;
+}
+.navbar-container>div:nth-child(1)
+{
+    width: 10%;
+    height: 60px;
+    float: left;
+    text-align: left;
+}
+
+.navbar-container>div:nth-child(1)>img
+{
+    width: 83px;
+    height: 30px;
+    margin-top: 15px;
+
+
+}
+
+.navbar-container>div:nth-child(2)
+{
+    width: 75%;
+    height: 60px;
+    float: left;
+    
+}
+
+.navbar-container>div:nth-child(2)>ul
+{
+    list-style-type: none;
+  
+    height: 60px;
+    width: 90%;
+    margin-top: 0px;
+}
+
+.navbar-container>div:nth-child(2)>ul li
+{
+    float: left;
+    width: 12%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-family: Poppins;
+    font-size: 13px;
+    color: #C4C4C4;
+    /* background-color: chartreuse; */
+}
+
+.navbar-container>div:nth-child(2)>ul li:nth-child(1)
+{
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-container>div:nth-child(3)
+{
+    width: 15%;
+    height: 60px;
+    float: left;
+
+    text-align: center;
+}
+
+.navbar-container>div:nth-child(3)>button
+{
+    padding: 0px 15px;
+    height: 40px;
+    background-color: #5955B3;
+    border: 1px solid #5955B3;
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+.banner-container h1
+{
+    font-family: Poppins;
+    color: #3C2F60;
+    font-size: 3em;
+    width: 9em;
+    margin-top: 1em;
+    padding-top: 1em;
+    line-height: 60px;
+    margin-bottom: 0px;
+}
+
+.banner-container span
+{
+    font-family: Poppins;
+    color: #534FB0;
+}
+
+.banner-container .description
+{
+    font-family: Poppins;
+    color: #898989;
+    font-size: 0.75em;
+    width: 25em;
+    margin-top: 2em;
+   
+}
+
+.banner-container>div>button
+{
+    padding: 0px 25px;
+    height: 50px;
+    background-color: #5955B3;
+    border: 1px solid #5955B3;
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins;
+    margin-top: 25px;
+}
+
+.banner-container>div:nth-child(1)
+{
+    float: left;
+
+    width: 35%;
+}
+
+.banner-container>div:nth-child(2)
+{
+   float: right;
+   margin-top: 2em;
+   margin-right: -5em;
+   width: 65%;
+   text-align: center;
+}
+.banner-container>div:nth-child(2)>img
+{
+   
+   width: 85%;
+
+}
+
